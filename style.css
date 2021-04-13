@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #fff;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 93.75%;
+}
+
+.main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 9rem;
+    width: 28rem;
+    margin-left: 39%;
+}
+
+section {
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1.2px rgba(167, 167, 167, 0.3);
+    padding: 12px 12px 16px 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contentContainer {
+    width: 22rem;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.form {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsDiv {
+    height: 44px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.inputs {
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border: 1px solid #9da3a6;
+    border-radius: 4px;
+}
+
+.buttons {
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border: 0px solid #9da3a6;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+#loginButton {
+    height: 44px;
+    margin-bottom: 18px;
+}
+
+#loginButton > #loginBtn {
+    width: 100%;
+    color: white;
+    background-color: #006abb;
+    cursor: pointer;
+}
+#loginButton > #loginBtn:hover {
+    background-color: #005ea6;
+    transition: 0.5s;
+}
+
+#forgotPassword {
+    height: 44px;
+    cursor: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#forgotPassword > a {
+    width: 45%;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #005ea6;
+    cursor: pointer;
+    font-family: HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+#forgotPassword > a:hover, a:focus {
+    text-decoration: underline;
+    outline: 0;
+}
+
+#separator > span {
+    height: 24px;
+    width: 10%;
+    background-color: white;
+    position: relative;
+    top: -.7em;
+}
+
+#separator {
+    border-top: 1px solid #cbd2d6;
+    padding: 0 .5em;
+    color: #6c7378;
+
+    justify-content: center;
+    display: flex;
+}
+
+#signinButton {
+    height: 44px;
+    margin-bottom: 48px;
+
+}
+
+#signinButton > #signinBtn {
+    width: 100%;
+    background-color: #d2dbe1;
+    color: #343536;
+    cursor: pointer;
+    
+}
+#signinButton > #signinBtn:hover {
+    background-color: #c2cacf;
+    transition: 0.5s;
+}
+
+#languageFooter {
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    font-size: 11px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#languageFooter > span {
+    margin-left: 10px;
+    text-decoration: none; 
+}
+
+#languageFooter > #language {
+    opacity: 0.5;
+}
+
+#languageFooter > span > a {
+    text-decoration: none;
+    color: #505255;
+}
+#languageFooter > span > a:hover {
+    text-decoration: underline;
+}
+
+
+
