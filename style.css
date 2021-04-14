@@ -205,9 +205,7 @@ header {
 @media (min-width: 100px) and (max-width: 770px) {
 
     section {
-
         box-shadow: 0px 0px 0px 0px rgba(167, 167, 167, 0.3);
-
     }
 
     .main {
